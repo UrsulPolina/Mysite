@@ -1,0 +1,140 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+header{
+  background-color: #ACB1D6;
+	height: 110px;
+}
+h1{
+	text-align: center;
+	color: #443C68;
+  font-family: 'Comfortaa', cursive;
+  font-size: 5vw;
+
+}
+h2{
+  color: #443C68;
+  font-family: 'Comfortaa', cursive;
+  font-size: 35px;
+}
+p{
+  font-family: 'Comfortaa', cursive;
+  font-size: 23px;
+  color: #443C68;
+  margin: 20px;
+}
+body{
+	background-color: #F6FFDE;
+}
+nav{
+	width: 20%;
+	float: left;
+	background-color: #DBDFEA;
+  height: 630px;
+}
+main{
+	width: 80%;
+	background-color:#FFEAD2;
+	float: left;
+	height: 630px;
+}
+footer{
+	height: 175px;
+	background-color: #ACB1D6;
+	clear: both;
+
+}
+
+/* CSS */
+.button-56 {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  width: 80%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
+a{
+	text-decoration: none;
+}
+
+@media only screen and (max-width:800px){
+  nav,main{
+    width: 100%;
+  }
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-google {
+  background: #443C68;
+  color: white;
+}
+.fa-youtube {
+  background: #443C68;
+  color: white;
+}
+.fa-pinterest {
+  background: #443C68;
+  color: white;
+}

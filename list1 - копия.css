@@ -1,0 +1,26 @@
+body{
+	background-color: lavenderblush;
+}
+.p{
+	font-size: 75px;
+	color: gray;
+	background-color: lightpink;
+}
+.p1{
+	font-size: 50px;
+	color: gray;
+}
+ul,ol{
+	font-size: 30px;
+	color: gray;
+	margin-left: 100px;
+}
+.l1 li{
+	padding-left: 20px;
+}
+.l2 li::marker{
+	color: lightpink;
+}
+.l3{
+	list-style: none;
+}

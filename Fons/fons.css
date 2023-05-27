@@ -1,0 +1,26 @@
+body{
+	background-color: lavender;
+}
+p{
+	font-size: 50px;
+	color:#87CEFA;
+	background-color:#E0FFFF;
+}
+.first{
+	font-family:'Amatic SC', cursive; 
+}
+.second{
+	font-family:'Caveat', cursive; 
+}
+.third{
+	font-family:'Comfortaa', cursive; 
+}
+.fifth{
+	font-family: 'Poiret One', cursive;
+}
+.sixth{
+	font-family: 'Poiret One', cursive;
+}
+.shadow{
+	text-shadow: 0 0 10px #FFE4E1;
+}
